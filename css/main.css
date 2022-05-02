@@ -18,7 +18,17 @@ ul{
 }
 
 .btn{
-
+  text-decoration: none;
+  background-color: tomato;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px 5px 5px 0px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 3px;
+  font-size: 14px;
+  float: left;
+  cursor: pointer;
 }
 
 .area {
@@ -36,11 +46,12 @@ ul{
   background-color: #ddd;
 text-align: center;
 }
-.logo{
-float: left;
+.logo {
+  float: left;
   width: 100px;
-  margin: 30px;
+  margin-top: 14px;
 }
+
 .logo a{}
 .logo a img {
   height: 50px;
@@ -52,8 +63,8 @@ float: left;
   float: right;
   width: 720px;
 }
-.menu ul{
-  margin-top: 30px;
+.menu ul {
+  margin-top: 14px;
   margin-right: 10px;
   text-align: right;
   list-style: none;
@@ -97,7 +108,8 @@ float: left;
   text-transform: uppercase;
   text-align: center;
   margin-top: 5px;
-}.service{}
+}
+.service{}
 .single-service {
   background-color: teal;
   width: 313px;
@@ -124,21 +136,65 @@ float: left;
   font-size: 15px;
 }
 .single-service a{
-  text-decoration: none;
-  background-color: tomato;
-  display: inline-block;
-  padding: 5px;
-  margin: 20px 5px 5px 0px;
-  color: white;
-  text-transform: capitalize;
-  border-radius: 3px;
-  font-size: 14px;
-  float: left;
-  cursor: pointer;
+  /*text-decoration: none;*/
+  /*background-color: tomato;*/
+  /*display: inline-block;*/
+  /*padding: 5px;*/
+  /*margin: 20px 5px 5px 0px;*/
+  /*color: white;*/
+  /*text-transform: capitalize;*/
+  /*border-radius: 3px;*/
+  /*font-size: 14px;*/
+  /*float: left;*/
+  /*cursor: pointer;*/
 }
 .single-service a:hover{
   background-color: black;
 }
 
+/*about design start here*/
+
+.about{
+  margin: 60px 0px;
+}
+.about-left {
+  float: left;
+  margin-right: 30px;
+  padding: 0px 10px;
+  width: 753px;
+}
+
+.about-left h4, .about-menu h4{
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.about-left p{}
+.about-left a:hover{
+  background-color: black;
+}
+.about-menu{}
+.about-menu h4{}
+.about-menu ul{}
+.about-menu ul li{}
+.about-menu ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+/*about design end hre*/
+
+/*footer design start here*/
+.footer {
+  background-color: teal;
+  height: 43px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+}
+.footer p{}
+/*footer design end here*/
 /*services design end here*/
 
