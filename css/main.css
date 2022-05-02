@@ -198,3 +198,31 @@ text-align: center;
 /*footer design end here*/
 /*services design end here*/
 
+/*page banner css*/
+
+.page-banner {
+  background-size: cover;
+  background-position: center;
+  padding: 124px 0px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: relative;
+}
+.page-banner h2 {
+  color: wheat;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 35px;
+}
+
+.page-banner::after{
+  content: '';
+  position: absolute;
+  background-color: #555555;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  opacity: .80;
+  z-index: -1;
+}
