@@ -189,10 +189,11 @@ text-align: center;
   background-color: teal;
   height: 43px;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 15px;
   font-style: italic;
+  margin-top: 10px;
 }
 .footer p{}
 /*footer design end here*/
@@ -226,3 +227,19 @@ text-align: center;
   opacity: .80;
   z-index: -1;
 }
+
+/*gallery page start design here*/
+
+.gallery{
+margin: 10px 0px;
+}
+.single-gallery {
+  background-color: #888888;
+  float: left;
+  margin: 10px 16px;
+}
+.single-gallery::placeholder {
+  background-color: #555555;
+}
+
+/*gallery page end design here*/
