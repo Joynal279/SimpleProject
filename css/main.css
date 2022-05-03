@@ -1,35 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body{
-  font-size: 14px;
-  line-height: 22px;
-}
-.fix::before, .fix::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-ul{
-  list-style: none;
-}
-
-.btn{
-  text-decoration: none;
-  background-color: tomato;
-  display: inline-block;
-  padding: 5px;
-  margin: 20px 5px 5px 0px;
-  color: white;
-  text-transform: capitalize;
-  border-radius: 3px;
-  font-size: 14px;
-  float: left;
-  cursor: pointer;
-}
 
 .area {
   width: 1000px;
